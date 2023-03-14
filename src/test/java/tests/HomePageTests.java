@@ -6,6 +6,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static url.URL_S.base;
+
 public class HomePageTests {
     private static WebDriver driver = null;
 
@@ -18,15 +20,28 @@ public class HomePageTests {
 
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
 
-        driver.get("https://www.beckmancoulter.com/");
+        driver.get(base());
         Home_page.cookie_accept();
-        Home_page.cookie_agree();
     }
 
-    @Test
+    @Test(priority = 1)
+    public void cookieCheck(){
+        pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+        Home_page.cookie_check();
+    }
+
+    @Test(priority = 2)
     public void logoCheck() {
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+        Home_page.cookie_agree();
         Home_page.logo();
+    }
+
+    @Test(priority = 3)
+    public void changeCountry(){
+        pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+        Home_page.cookie_agree();
+        Home_page.country_change();
     }
 
     @AfterTest

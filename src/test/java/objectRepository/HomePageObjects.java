@@ -18,4 +18,16 @@ public class HomePageObjects {
     public static WebElement logo(WebDriver driver) {
         return driver.findElement(By.xpath("//*[@id=\"universal-nav-link\"]/a/img"));
     }
+    public static WebElement country_and_language(WebDriver driver){
+        return driver.findElement(By.xpath("//*[@id=\"universal-nav-country-language-link\"]/a"));
+    }
+    public static WebElement country(WebDriver driver){
+        return driver.findElement(By.xpath("//div[@class='ui search selection fluid dropdown country-dropdown']//i[@class='dropdown icon']"));
+    }
+    public static WebElement country_edit_box(WebDriver driver){
+        return driver.findElement(By.xpath("//input[@class='search']"));
+    }
+    public static WebElement country_enter(WebDriver driver){
+        return driver.findElement(By.xpath("//input[@name='launch-language-selection']"));
+    }
 }

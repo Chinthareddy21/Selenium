@@ -18,4 +18,13 @@ public class HomePage {
     public void logo() {
         HomePageObjects.logo(driver).isDisplayed();
     }
+    public void cookie_check(){
+        HomePageObjects.cookies_agree(driver).isDisplayed();
+    }
+    public void country_change(){
+        HomePageObjects.country_and_language(driver).click();
+        HomePageObjects.country(driver).click();
+        HomePageObjects.country_edit_box(driver).sendKeys("United States");
+        HomePageObjects.country_enter(driver).click();
+    }
 }
