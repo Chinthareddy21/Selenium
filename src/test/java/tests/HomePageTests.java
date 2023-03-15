@@ -1,7 +1,5 @@
 package tests;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
@@ -12,8 +10,6 @@ import static url.URL_S.base;
 
 public class HomePageTests {
     private static WebDriver driver = null;
-    ExtentReports extent;
-    ExtentSparkReporter spark;
 
     @BeforeMethod
     public void setUp() {
@@ -21,10 +17,6 @@ public class HomePageTests {
         String projectPath = System.getProperty("user.dir");
         System.setProperty("webdriver.chrome.driver", projectPath+ "/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
-
-        extent = new ExtentReports();
-        spark = new ExtentSparkReporter("target/Spark/Spark.html");
-        extent.attachReporter(spark);
 
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
 
@@ -36,7 +28,6 @@ public class HomePageTests {
     public void cookieCheck(){
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
         Home_page.cookie_check();
-        driver.close();
     }
 
     @Test(priority = 2)
@@ -44,20 +35,20 @@ public class HomePageTests {
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
         Home_page.cookie_agree();
         Home_page.logo();
-        driver.close();
     }
 
     @Test(priority = 3)
     public void changeCountry(){
+        extentReports.HomePageReporters Cookie_Report = new extentReports.HomePageReporters(driver);
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+
         Home_page.cookie_agree();
-        Home_page.country_change();
-        driver.close();
+        Cookie_Report.logoCheckReporter();
     }
 
     @AfterMethod
     public void tearDown() {
+        driver.close();
         driver.quit();
-        extent.flush();
     }
 }

@@ -9,18 +9,23 @@ public class HomePage {
     WebDriver driver = null;
 
     public HomePage(WebDriver driver) {
+
         this.driver = driver;
     }
     public void cookie_accept() {
+
         HomePageObjects.cookies_accept(driver).click();
     }
     public void cookie_agree() {
+
         HomePageObjects.cookies_agree(driver).click();
     }
     public void logo() {
+
         HomePageObjects.logo(driver).isDisplayed();
     }
     public void cookie_check(){
+
         HomePageObjects.cookies_agree(driver).isDisplayed();
     }
     public void country_change(){
