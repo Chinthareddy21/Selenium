@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test thread-count="5" preserve-order="true" name="F:/Selenium/src/test/java/tests/HomePageTests.java" parallel="methods">
+        <classes>
+            <class name="tests.HomePageTests">
+                <methods>
+                    <include name="cookieCheck"/>
+                    <include name="logoCheck"/>
+                    <include name="changeCountry"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

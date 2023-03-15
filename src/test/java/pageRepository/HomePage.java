@@ -3,6 +3,8 @@ package pageRepository;
 import objectRepository.HomePageObjects;
 import org.openqa.selenium.WebDriver;
 
+import static credentials.HomePage_credentials.country;
+
 public class HomePage {
     WebDriver driver = null;
 
@@ -24,7 +26,7 @@ public class HomePage {
     public void country_change(){
         HomePageObjects.country_and_language(driver).click();
         HomePageObjects.country(driver).click();
-        HomePageObjects.country_edit_box(driver).sendKeys("United States");
+        HomePageObjects.country_edit_box(driver).sendKeys(country());
         HomePageObjects.country_enter(driver).click();
     }
 }
