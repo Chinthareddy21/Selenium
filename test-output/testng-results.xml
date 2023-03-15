@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T10:16:07 IST" name="Default Suite" finished-at="2023-03-15T10:19:20 IST" duration-ms="193102">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T10:16:07 IST" name="Selenium" finished-at="2023-03-15T10:19:20 IST" duration-ms="193102">
+      <class name="tests.HomePageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:16:07 IST" name="setUp" finished-at="2023-03-15T10:17:07 IST" duration-ms="59535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cookieCheck()[pri:1, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:17:07 IST" name="cookieCheck" finished-at="2023-03-15T10:17:09 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:17:09 IST" name="tearDown" finished-at="2023-03-15T10:17:11 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:17:11 IST" name="setUp" finished-at="2023-03-15T10:18:00 IST" duration-ms="48723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoCheck()[pri:2, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:18:00 IST" name="logoCheck" finished-at="2023-03-15T10:18:15 IST" duration-ms="14692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:18:15 IST" name="tearDown" finished-at="2023-03-15T10:18:19 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:18:19 IST" name="setUp" finished-at="2023-03-15T10:19:13 IST" duration-ms="53765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeCountry()[pri:3, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:19:13 IST" name="changeCountry" finished-at="2023-03-15T10:19:19 IST" duration-ms="6506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCountry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@2c34f934]" started-at="2023-03-15T10:19:19 IST" name="tearDown" finished-at="2023-03-15T10:19:20 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- Selenium -->
+  </suite> <!-- Default Suite -->
+</testng-results>
