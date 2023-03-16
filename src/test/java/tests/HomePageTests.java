@@ -26,15 +26,18 @@ public class HomePageTests {
 
     @Test(priority = 1)
     public void cookieCheck(){
-        pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
-        Home_page.cookie_check();
+        extentReports.HomePageReporters Cookie_Report = new extentReports.HomePageReporters(driver);
+
+        Cookie_Report.cookieCheckReporter();
     }
 
     @Test(priority = 2)
     public void logoCheck() {
+        extentReports.HomePageReporters Cookie_Report = new extentReports.HomePageReporters(driver);
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+
         Home_page.cookie_agree();
-        Home_page.logo();
+        Cookie_Report.logoCheckReporter();
     }
 
     @Test(priority = 3)
@@ -43,7 +46,7 @@ public class HomePageTests {
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
 
         Home_page.cookie_agree();
-        Cookie_Report.logoCheckReporter();
+        Cookie_Report.countryChangeReporter();
     }
 
     @AfterMethod
