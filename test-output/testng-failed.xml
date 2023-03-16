@@ -7,7 +7,6 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="logoCheck"/>
           <include name="changeCountry"/>
         </methods>
       </class> <!-- tests.HomePageTests -->

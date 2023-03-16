@@ -9,11 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default Suite</th></tr>
-<tr><td><a href="#t0">Selenium</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">92,665</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Selenium</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">123,166</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selenium &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.HomePageTests</td><td><a href="#m0">changeCountry</a></td><td rowspan="1">1678947511445</td><td rowspan="1">6655</td></tr><tr class="passedeven"><td><a href="#m1">cookieCheck</a></td><td rowspan="1">1678947451227</td><td rowspan="1">5750</td></tr><tr class="passedeven"><td><a href="#m2">logoCheck</a></td><td rowspan="1">1678947481559</td><td rowspan="1">3190</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selenium &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.HomePageTests</td><td><a href="#m0">changeCountry</a></td><td rowspan="1">1678971524151</td><td rowspan="1">15289</td></tr><tr><th colspan="4">Selenium &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.HomePageTests</td><td><a href="#m1">cookieCheck</a></td><td rowspan="1">1678971464352</td><td rowspan="1">10578</td></tr><tr class="passedeven"><td><a href="#m2">logoCheck</a></td><td rowspan="1">1678971495715</td><td rowspan="1">6004</td></tr></tbody>
 </table>
-<h2>Selenium</h2><h3 id="m0">tests.HomePageTests#changeCountry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Selenium</h2><h3 id="m0">tests.HomePageTests#changeCountry</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JSR3MIF&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\chint\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e7225c719434ca683186376a63b824d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at extentReports.HomePageReporters.countryChangeReporter(HomePageReporters.java:74)
+	at tests.HomePageTests.changeCountry(HomePageTests.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">tests.HomePageTests#cookieCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">tests.HomePageTests#logoCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

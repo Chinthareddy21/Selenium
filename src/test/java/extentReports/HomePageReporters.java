@@ -5,11 +5,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import objectRepository.HomePageObjects;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import pageRepository.HomePage;
 
 public class HomePageReporters {
 
+    private static Logger log = LogManager.getLogger(HomePageReporters.class);
     ExtentSparkReporter spark;
     ExtentTest test;
     ExtentReports extent;
@@ -34,6 +37,8 @@ public class HomePageReporters {
         }
 
         Home.cookie_agree();
+
+        log.info("Agree cookies has been accepted");
 
         extent.flush();
     }
