@@ -12,7 +12,7 @@ import pageRepository.HomePage;
 
 public class HomePageReporters {
 
-    private static Logger log = LogManager.getLogger(HomePageReporters.class);
+    private static final Logger log = LogManager.getLogger(HomePageReporters.class);
     ExtentSparkReporter spark;
     ExtentTest test;
     ExtentReports extent;

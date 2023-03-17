@@ -5,15 +5,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static url.URL_S.base;
 
 public class HomePageTests {
     private static WebDriver driver;
-    private static Logger log = LogManager.getLogger(HomePageReporters.class);
+    private static final Logger log = LogManager.getLogger(HomePageReporters.class);
 
     @BeforeMethod
     public void setUp() {
