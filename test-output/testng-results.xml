@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-17T17:30:12 IST" name="Default Suite" finished-at="2023-03-17T17:30:58 IST" duration-ms="45925">
+  <suite started-at="2023-03-17T19:20:32 IST" name="Default Suite" finished-at="2023-03-17T19:21:37 IST" duration-ms="65377">
     <groups>
     </groups>
-    <test started-at="2023-03-17T17:30:12 IST" name="Selenium" finished-at="2023-03-17T17:30:58 IST" duration-ms="45925">
+    <test started-at="2023-03-17T19:20:32 IST" name="Selenium" finished-at="2023-03-17T19:21:37 IST" duration-ms="65377">
       <class name="tests.HomePageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@3a4621bd]" started-at="2023-03-17T17:30:12 IST" name="setUp" finished-at="2023-03-17T17:30:44 IST" duration-ms="32365" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@6ed3f258]" started-at="2023-03-17T19:20:32 IST" name="setUp" finished-at="2023-03-17T19:21:26 IST" duration-ms="54403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="HomePage()[pri:0, instance:tests.HomePageTests@3a4621bd]" started-at="2023-03-17T17:30:44 IST" name="HomePage" finished-at="2023-03-17T17:30:51 IST" duration-ms="7196" status="PASS">
+        <test-method signature="HomePage()[pri:0, instance:tests.HomePageTests@6ed3f258]" started-at="2023-03-17T19:21:27 IST" name="HomePage" finished-at="2023-03-17T19:21:34 IST" duration-ms="7557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@3a4621bd]" started-at="2023-03-17T17:30:52 IST" name="tearDown" finished-at="2023-03-17T17:30:58 IST" duration-ms="6198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@6ed3f258]" started-at="2023-03-17T19:21:34 IST" name="tearDown" finished-at="2023-03-17T19:21:37 IST" duration-ms="3129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

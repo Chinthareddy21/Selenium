@@ -19,24 +19,41 @@ public class HomePage {
     }
     public void cookie_accept() {
         HomePageObjects.cookies_accept(driver).click();
-
+        try{
+            HomePageObjects.cookies_agree(driver).isDisplayed();
+            test.pass("Cookie agree message is displayed");
+            log.info("Cookies are accepted");
+        } catch(Exception e){
+            test.fail("Cookie  agree message is not displayed");
+            log.info("Cookies are not accepted");
+        }
     }
     public void cookie_agree() {
-        if(HomePageObjects.cookies_agree(driver).isDisplayed()){
+        try{
+            HomePageObjects.cookies_agree(driver).isDisplayed();
             test.pass("Cookie agree message is displayed");
             log.info("Agree cookies message is displayed");
-        } else {
+        } catch(Exception e){
             test.fail("Cookie  agree message is not displayed");
             log.info("Agree cookies message is not displayed");
         }
         HomePageObjects.cookies_agree(driver).click();
+        try{
+            HomePageObjects.logo(driver).isDisplayed();
+            test.pass("Agree cookies message are accepted");
+            log.info("Agree cookies message is displayed");
+        } catch(Exception e){
+            test.fail("Cookie  agree message is not displayed");
+            log.info("Agree cookies message are not accepted");
+        }
     }
     public void logo() {
         HomePageObjects.logo(driver).isDisplayed();
-        if(HomePageObjects.logo(driver).isDisplayed()){
+        try{
+            HomePageObjects.logo(driver).isDisplayed();
             test.pass("Logo is displayed");
             log.info("Logo is visible");
-        } else {
+        } catch (Exception e){
             test.fail("Logo is not displayed");
             log.info("Logo is not visible");
         }
@@ -61,10 +78,11 @@ public class HomePage {
         Actions actions = new Actions(driver);
         HomePageObjects.product_hover(driver).isDisplayed();
         actions.moveToElement(HomePageObjects.product_hover(driver)).perform();
-        if(HomePageObjects.product_hover(driver).isDisplayed()){
+        try{
+            HomePageObjects.product_hover(driver).isDisplayed();
             test.pass("First component is next to navigation bar");
             log.info("First component is next to navigation bar");
-        } else {
+        } catch (Exception e){
             test.fail("First component is not next to navigation bar");
             log.info("First component is not next to navigation bar");
         }

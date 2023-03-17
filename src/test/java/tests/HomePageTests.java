@@ -39,7 +39,6 @@ public class HomePageTests {
         driver.get(base());
         log.info("Home page loaded successfully");
         Home_page.cookie_accept();
-        log.info("Accepted cookies");
     }
 
     @Test
