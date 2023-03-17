@@ -30,5 +30,7 @@ public class HomePageObjects {
     public static WebElement country_enter(WebDriver driver){
         return driver.findElement(By.xpath("//input[@name='launch-language-selection']"));
     }
-
+    public static WebElement product_hover(WebDriver driver){
+        return driver.findElement(By.xpath("//div[3]/div[1]/div[2]/div[2]/div[1]/a"));
+    }
 }

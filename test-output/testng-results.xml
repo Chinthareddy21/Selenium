@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-17T10:32:29 IST" name="Default Suite" finished-at="2023-03-17T10:37:25 IST" duration-ms="295600">
+  <suite started-at="2023-03-17T16:53:09 IST" name="Default Suite" finished-at="2023-03-17T16:55:03 IST" duration-ms="113851">
     <groups>
     </groups>
-    <test started-at="2023-03-17T10:32:29 IST" name="Selenium" finished-at="2023-03-17T10:37:25 IST" duration-ms="295600">
+    <test started-at="2023-03-17T16:53:09 IST" name="Selenium" finished-at="2023-03-17T16:55:03 IST" duration-ms="113851">
       <class name="tests.HomePageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:32:29 IST" name="setUp" finished-at="2023-03-17T10:34:54 IST" duration-ms="144884" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@40db2a24]" started-at="2023-03-17T16:53:09 IST" name="setUp" finished-at="2023-03-17T16:54:50 IST" duration-ms="100831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cookieCheck()[pri:1, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:34:54 IST" name="cookieCheck" finished-at="2023-03-17T10:35:00 IST" duration-ms="5965" status="PASS">
+        <test-method signature="HomePage()[pri:0, instance:tests.HomePageTests@40db2a24]" started-at="2023-03-17T16:54:50 IST" name="HomePage" finished-at="2023-03-17T16:55:01 IST" duration-ms="11017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookieCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:35:00 IST" name="tearDown" finished-at="2023-03-17T10:35:01 IST" duration-ms="1043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:35:01 IST" name="setUp" finished-at="2023-03-17T10:36:34 IST" duration-ms="93398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="logoCheck()[pri:2, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:36:34 IST" name="logoCheck" finished-at="2023-03-17T10:36:39 IST" duration-ms="4440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:36:39 IST" name="tearDown" finished-at="2023-03-17T10:36:40 IST" duration-ms="1090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:36:40 IST" name="setUp" finished-at="2023-03-17T10:37:16 IST" duration-ms="35911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="changeCountry()[pri:3, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:37:16 IST" name="changeCountry" finished-at="2023-03-17T10:37:24 IST" duration-ms="7694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeCountry -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@16fdec90]" started-at="2023-03-17T10:37:24 IST" name="tearDown" finished-at="2023-03-17T10:37:25 IST" duration-ms="1026" status="PASS">
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@40db2a24]" started-at="2023-03-17T16:55:01 IST" name="tearDown" finished-at="2023-03-17T16:55:03 IST" duration-ms="1838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

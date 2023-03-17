@@ -6,8 +6,8 @@
       <class name="tests.HomePageTests">
         <methods>
           <include name="setUp"/>
+          <include name="cookieCheck"/>
           <include name="tearDown"/>
-          <include name="changeCountry"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
     </classes>

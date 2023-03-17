@@ -1,26 +1,39 @@
-[INFO ] 2023-03-17 10:32:29.551 [main] Utils - [TestNG] Running:
-  C:\Users\chint\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
-
-[INFO ] 2023-03-17 10:32:33.970 [main] HomePageReporters - Chrome driver set up completed
-[INFO ] 2023-03-17 10:32:33.971 [main] HomePageReporters - Chrome browser started
-[INFO ] 2023-03-17 10:34:53.940 [main] HomePageReporters - Home page loaded successfully
-[INFO ] 2023-03-17 10:34:54.533 [main] HomePageReporters - Accepted cookies
-[INFO ] 2023-03-17 10:34:58.612 [main] HomePageReporters - Agree cookies has been accepted
-[INFO ] 2023-03-17 10:35:01.219 [main] HomePageReporters - Closing chrome browser
-[INFO ] 2023-03-17 10:35:01.564 [main] HomePageReporters - closing all running browsers
-[INFO ] 2023-03-17 10:35:04.030 [main] HomePageReporters - Chrome driver set up completed
-[INFO ] 2023-03-17 10:35:04.031 [main] HomePageReporters - Chrome browser started
-[INFO ] 2023-03-17 10:36:34.286 [main] HomePageReporters - Home page loaded successfully
-[INFO ] 2023-03-17 10:36:34.968 [main] HomePageReporters - Accepted cookies
-[INFO ] 2023-03-17 10:36:35.550 [main] HomePageReporters - Agree cookies has been accepted
-[INFO ] 2023-03-17 10:36:38.910 [main] HomePageReporters - Logo is visible
-[INFO ] 2023-03-17 10:36:39.919 [main] HomePageReporters - Closing chrome browser
-[INFO ] 2023-03-17 10:36:40.520 [main] HomePageReporters - closing all running browsers
-[INFO ] 2023-03-17 10:36:43.386 [main] HomePageReporters - Chrome driver set up completed
-[INFO ] 2023-03-17 10:36:43.387 [main] HomePageReporters - Chrome browser started
-[INFO ] 2023-03-17 10:37:16.040 [main] HomePageReporters - Home page loaded successfully
-[INFO ] 2023-03-17 10:37:16.434 [main] HomePageReporters - Accepted cookies
-[INFO ] 2023-03-17 10:37:18.051 [main] HomePageReporters - Agree cookies has been accepted
-[INFO ] 2023-03-17 10:37:23.286 [main] HomePageReporters - Logo is visible
-[INFO ] 2023-03-17 10:37:24.670 [main] HomePageReporters - Closing chrome browser
-[INFO ] 2023-03-17 10:37:25.162 [main] HomePageReporters - closing all running browse
+[INFO ] 2023-03-17 16:30:22.531 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 16:30:22.540 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 16:31:53.599 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 16:31:54.453 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 16:31:58.323 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 16:31:58.659 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-03-17 16:32:43.461 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 16:32:43.472 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 16:34:04.026 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 16:34:04.821 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 16:34:08.520 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 16:34:08.866 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-03-17 16:42:28.137 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 16:42:28.520 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 16:43:54.455 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 16:43:54.790 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 16:43:59.148 [main] HomePage - Logo is visible
+[INFO ] 2023-03-17 16:44:02.897 [main] HomePage - Products option is visible
+[INFO ] 2023-03-17 16:44:10.384 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 16:44:10.858 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-03-17 16:46:25.014 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 16:46:25.024 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 16:47:08.406 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 16:47:08.541 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 16:47:09.003 [main] HomePage - Logo is visible
+[INFO ] 2023-03-17 16:47:13.151 [main] HomePage - Products option is visible
+[INFO ] 2023-03-17 16:47:13.667 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-03-17 16:47:16.008 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 16:47:16.968 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-03-17 16:53:17.306 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 16:53:17.316 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 16:54:50.332 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 16:54:50.651 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 16:54:50.985 [main] HomePage - Accepted agree cookies message
+[INFO ] 2023-03-17 16:54:51.323 [main] HomePage - Logo is visible
+[INFO ] 2023-03-17 16:54:56.861 [main] HomePage - Products option is visible
+[INFO ] 2023-03-17 16:55:01.804 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-03-17 16:55:03.278 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 16:55:03.650 [main] HomePageTests - closing all running browsers
