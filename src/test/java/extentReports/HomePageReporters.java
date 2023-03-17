@@ -51,12 +51,17 @@ public class HomePageReporters {
         test = extent.createTest("LogoCheck");
 
         HomePage Home = new HomePage(driver);
+        Home.cookie_agree();
+        log.info("Agree cookies has been accepted");
         Home.logo();
+
 
         if(HomePageObjects.logo(driver).isDisplayed()){
             test.pass("Logo is displayed");
+            log.info("Logo is visible");
         } else {
             test.fail("Logo is not displayed");
+            log.info("Logo is not visible");
         }
         extent.flush();
     }
@@ -69,12 +74,16 @@ public class HomePageReporters {
         test = extent.createTest("Country_change");
 
         HomePage Home = new HomePage(driver);
+        Home.cookie_agree();
+        log.info("Agree cookies has been accepted");
         Home.country_change();
 
         if(HomePageObjects.logo(driver).isDisplayed()){
             test.pass("Country is changed");
+            log.info("Logo is visible");
         } else {
-            test.fail("Country is not changed");
+            test.fail("Logo is not displayed");
+            log.info("Logo is not visible");
         }
         extent.flush();
     }

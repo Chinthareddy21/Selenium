@@ -1,5 +1,8 @@
 package tests;
 
+import extentReports.HomePageReporters;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
@@ -9,7 +12,8 @@ import org.testng.annotations.Test;
 import static url.URL_S.base;
 
 public class HomePageTests {
-    private static WebDriver driver = null;
+    private static WebDriver driver;
+    private static Logger log = LogManager.getLogger(HomePageReporters.class);
 
     @BeforeMethod
     public void setUp() {
@@ -17,11 +21,15 @@ public class HomePageTests {
         String projectPath = System.getProperty("user.dir");
         System.setProperty("webdriver.chrome.driver", projectPath+ "/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
+        log.info("Chrome driver set up completed");
+        log.info("Chrome browser started");
 
         pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
 
         driver.get(base());
+        log.info("Home page loaded successfully");
         Home_page.cookie_accept();
+        log.info("Accepted cookies");
     }
 
     @Test(priority = 1)
@@ -33,25 +41,23 @@ public class HomePageTests {
 
     @Test(priority = 2)
     public void logoCheck() {
-        extentReports.HomePageReporters Cookie_Report = new extentReports.HomePageReporters(driver);
-        pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+        extentReports.HomePageReporters Logo = new extentReports.HomePageReporters(driver);
 
-        Home_page.cookie_agree();
-        Cookie_Report.logoCheckReporter();
+        Logo.logoCheckReporter();
     }
 
     @Test(priority = 3)
     public void changeCountry(){
-        extentReports.HomePageReporters Cookie_Report = new extentReports.HomePageReporters(driver);
-        pageRepository.HomePage Home_page = new pageRepository.HomePage(driver);
+        extentReports.HomePageReporters Country_change = new extentReports.HomePageReporters(driver);
 
-        Home_page.cookie_agree();
-        Cookie_Report.countryChangeReporter();
+        Country_change.countryChangeReporter();
     }
 
     @AfterMethod
     public void tearDown() {
         driver.close();
+        log.info("Closing chrome browser");
         driver.quit();
+        log.info("closing all running browsers");
     }
 }
