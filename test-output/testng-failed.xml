@@ -6,7 +6,7 @@
       <class name="tests.HomePageTests">
         <methods>
           <include name="setUp"/>
-          <include name="cookieCheck"/>
+          <include name="HomePage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.HomePageTests -->

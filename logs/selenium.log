@@ -1,0 +1,10 @@
+[INFO ] 2023-03-17 17:30:19.546 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-03-17 17:30:19.554 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-03-17 17:30:44.280 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-03-17 17:30:44.662 [main] HomePageTests - Accepted cookies
+[INFO ] 2023-03-17 17:30:45.548 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-03-17 17:30:48.867 [main] HomePage - Logo is visible
+[INFO ] 2023-03-17 17:30:51.696 [main] HomePage - Products option is visible
+[INFO ] 2023-03-17 17:30:51.994 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-03-17 17:30:57.502 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-03-17 17:30:58.201 [main] HomePageTests - closing all running browsers
