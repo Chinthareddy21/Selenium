@@ -29,7 +29,7 @@ public class HomePageTests {
         test = extent.createTest("Homepage_tests");
 
 
-        WebDriverManager .chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         log.info("Chrome driver set up completed");
         log.info("Chrome browser started");
