@@ -1,6 +1,6 @@
 <Configuration status="warn">
     <Properties>
-        <Property name="basePath">F:/Selenium/logs</Property>
+        <Property name="basePath">logs</Property>
     </Properties>
 
     <Appenders>
