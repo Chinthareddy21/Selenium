@@ -1,0 +1,52 @@
+[INFO ] 2023-06-11 06:22:12.691 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-06-11 06:22:12.694 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-06-11 06:22:27.131 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-06-11 06:22:27.290 [main] HomePage - Cookies are accepted
+[INFO ] 2023-06-11 06:22:27.352 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:22:27.438 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:22:27.498 [main] HomePage - Logo is visible
+[INFO ] 2023-06-11 06:22:28.157 [main] HomePage - Products option is visible
+[INFO ] 2023-06-11 06:22:28.367 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-06-11 06:22:28.912 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-06-11 06:22:29.098 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-06-11 06:23:14.429 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-06-11 06:23:14.433 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-06-11 06:23:25.194 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-06-11 06:23:25.425 [main] HomePage - Cookies are accepted
+[INFO ] 2023-06-11 06:23:25.476 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:23:25.621 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:23:25.752 [main] HomePage - Logo is visible
+[INFO ] 2023-06-11 06:23:28.121 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-06-11 06:23:28.190 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-06-11 06:24:00.480 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-06-11 06:24:00.484 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-06-11 06:24:12.510 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-06-11 06:24:12.679 [main] HomePage - Cookies are accepted
+[INFO ] 2023-06-11 06:24:12.745 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:24:12.884 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:24:12.973 [main] HomePage - Logo is visible
+[INFO ] 2023-06-11 06:24:13.999 [main] HomePage - Products option is visible
+[INFO ] 2023-06-11 06:24:16.368 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-06-11 06:24:16.494 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-06-11 06:24:56.663 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-06-11 06:24:56.668 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-06-11 06:25:07.348 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-06-11 06:25:07.482 [main] HomePage - Cookies are accepted
+[INFO ] 2023-06-11 06:25:07.521 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:25:07.614 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:25:07.666 [main] HomePage - Logo is visible
+[INFO ] 2023-06-11 06:25:08.185 [main] HomePage - Products option is visible
+[INFO ] 2023-06-11 06:25:08.431 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-06-11 06:25:09.089 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-06-11 06:25:09.276 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-06-11 06:25:38.045 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-06-11 06:25:38.050 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-06-11 06:25:51.494 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-06-11 06:25:51.652 [main] HomePage - Cookies are accepted
+[INFO ] 2023-06-11 06:25:51.713 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:25:51.817 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-06-11 06:25:51.875 [main] HomePage - Logo is visible
+[INFO ] 2023-06-11 06:25:52.500 [main] HomePage - Products option is visible
+[INFO ] 2023-06-11 06:25:52.717 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-06-11 06:25:53.208 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-06-11 06:25:53.344 [main] HomePageTests - closing all running browsers
