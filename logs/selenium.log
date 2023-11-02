@@ -50,3 +50,14 @@
 [INFO ] 2023-06-11 06:25:52.717 [main] HomePage - First component is next to navigation bar
 [INFO ] 2023-06-11 06:25:53.208 [main] HomePageTests - Closing chrome browser
 [INFO ] 2023-06-11 06:25:53.344 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-11-02 18:49:05.060 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-11-02 18:49:05.062 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-11-02 18:49:06.359 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-11-02 18:49:11.249 [main] HomePage - Cookies are accepted
+[INFO ] 2023-11-02 18:49:11.313 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:49:11.386 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:49:11.432 [main] HomePage - Logo is visible
+[INFO ] 2023-11-02 18:49:11.942 [main] HomePage - Products option is visible
+[INFO ] 2023-11-02 18:49:12.181 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-11-02 18:49:12.554 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-11-02 18:49:12.615 [main] HomePageTests - closing all running browsers
