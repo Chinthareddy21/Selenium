@@ -61,3 +61,25 @@
 [INFO ] 2023-11-02 18:49:12.181 [main] HomePage - First component is next to navigation bar
 [INFO ] 2023-11-02 18:49:12.554 [main] HomePageTests - Closing chrome browser
 [INFO ] 2023-11-02 18:49:12.615 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-11-02 18:54:11.987 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-11-02 18:54:11.988 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-11-02 18:54:18.600 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-11-02 18:54:18.692 [main] HomePage - Cookies are accepted
+[INFO ] 2023-11-02 18:54:18.755 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:54:18.834 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:54:18.884 [main] HomePage - Logo is visible
+[INFO ] 2023-11-02 18:54:19.382 [main] HomePage - Products option is visible
+[INFO ] 2023-11-02 18:54:19.645 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-11-02 18:54:20.147 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-11-02 18:54:20.249 [main] HomePageTests - closing all running browsers
+[INFO ] 2023-11-02 18:56:06.869 [main] HomePageTests - Chrome driver set up completed
+[INFO ] 2023-11-02 18:56:06.871 [main] HomePageTests - Chrome browser started
+[INFO ] 2023-11-02 18:56:12.650 [main] HomePageTests - Home page loaded successfully
+[INFO ] 2023-11-02 18:56:12.738 [main] HomePage - Cookies are accepted
+[INFO ] 2023-11-02 18:56:12.790 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:56:12.848 [main] HomePage - Agree cookies message is displayed
+[INFO ] 2023-11-02 18:56:12.890 [main] HomePage - Logo is visible
+[INFO ] 2023-11-02 18:56:13.297 [main] HomePage - Products option is visible
+[INFO ] 2023-11-02 18:56:13.511 [main] HomePage - First component is next to navigation bar
+[INFO ] 2023-11-02 18:56:13.937 [main] HomePageTests - Closing chrome browser
+[INFO ] 2023-11-02 18:56:14.022 [main] HomePageTests - closing all running browsers
